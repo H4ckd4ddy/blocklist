@@ -20,3 +20,4 @@ https://raw.githubusercontent.com/w13d/adblockListABP-PiHole/master/Spotify.txt;
 https://tgc.cloud/downloads/iOSAds.txt;bfdc35c86a783f8ae387648ca2a753ccac4e305f
 https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking.txt;3525f9119344b020d113b8db272272b46f1a209f
 https://raw.githubusercontent.com/shounak-de/iblocklist-loader/master/blacklist-domains.txt;f8ef9c6368e4fad855ee3e4cf27204abcfd85251
+https://blocklist.site/app/dl/tracking;e68d464020d6760f8d04b88d98a27f2bdf29ea60
