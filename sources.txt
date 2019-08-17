@@ -21,3 +21,9 @@ https://tgc.cloud/downloads/iOSAds.txt;bfdc35c86a783f8ae387648ca2a753ccac4e305f
 https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking.txt;3525f9119344b020d113b8db272272b46f1a209f
 https://raw.githubusercontent.com/shounak-de/iblocklist-loader/master/blacklist-domains.txt;f8ef9c6368e4fad855ee3e4cf27204abcfd85251
 https://blocklist.site/app/dl/tracking;e68d464020d6760f8d04b88d98a27f2bdf29ea60
+https://blocklist.site/app/dl/spam;d3b544e66dc379f0d4d7efdbcfaf6441c65aa699
+https://blocklist.site/app/dl/scam;336a35c4852c13719ffb58bb501ad915340b06ad
+https://blocklist.site/app/dl/ransomware;6cc2a7b3f89eb3de60c62ea4dad9a7c72a657136
+https://blocklist.site/app/dl/phishing;3618e84f818a8f0e27414a4bcf012c13f1a2d843
+https://blocklist.site/app/dl/malware;c5eb6f15c1fea9f50e16800e7924e67fb6d9169f
+https://blocklist.site/app/dl/ads;f9bdfe6343be3544e73b7f1094a61719a7d9bcd8

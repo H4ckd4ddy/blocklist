@@ -38,7 +38,7 @@ do
   sed -i 's/\r//' current.list
 
   # ----- Remove IP -----
-  sed -i 's/[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}//' current.list
+  sed -i 's/[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\} //' current.list
 
   # ----- Remove space -----
   sed -i 's/ //' current.list
@@ -48,6 +48,9 @@ do
 
   # ----- Remove tabs -----
   sed -i 's/\t//g' current.list
+
+  # ----- Remove dot at begin of line -----
+  sed -i 's/^\.//' current.list
 
   # ----- Parse blocklist and merge new domain -----
   echo "Start merging $source"
