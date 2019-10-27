@@ -13,10 +13,10 @@ sed -i '1d' $OUTPUT
 sed -i '/;WHITELISTED;/d' $OUTPUT
 
 # Replace first ';' by record value
-sed -i 's/;/ A 0\.0\.0\.0\"###/' $OUTPUT
+sed -i 's/;/ A 0\.0\.0\.0\";/' $OUTPUT
 
-# Replace second ';' by comment start
-sed -i 's/;/###/g' $OUTPUT
+# Remove all after first ';' (don't add all informations, too large)
+sed -i 's/;.*//' $OUTPUT
 
 # Add unbound key at begining of each line
 sed -i 's/^/local-data: \"/' $OUTPUT
