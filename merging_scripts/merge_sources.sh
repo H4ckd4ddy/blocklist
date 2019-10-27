@@ -68,7 +68,7 @@ do
     if [ $match_count -eq 0 ];then
       current_date=$(date --iso-8601=seconds)
       echo "Adding $domain"
-      echo "$domain;Merged from $source;$current_date" >> $blocklist
+      echo "$domain;BLACKLISTED;Merged from $source;$current_date" >> $blocklist
     fi
     #echo "[$current_line/$line_count]"
     current_line=$(($current_line+1))
